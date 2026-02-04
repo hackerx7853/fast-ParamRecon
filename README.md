@@ -29,3 +29,7 @@ Can scan 10 million URLs in under 2 minutes "Based on the OWASP Top 25 Parameter
 > ```bash
 > fast-ParamRecon -urls your_urls.txt -params params.json
 > ```
+
+# fast-ParamRecon ⚡
+
+![fast-ParamRecon PoC](poc.png)
