@@ -7,14 +7,25 @@ Can scan 10 million URLs in under 2 minutes "Based on the OWASP Top 25 Parameter
 - 🎯 Focused on security-relevant parameters
 - 📄 Uses external parameter wordlists (JSON)
 - 🛠 Perfect to combine with tools like:
-  - ffuf
   - nuclei
   - sqlmap
-  - dalfox
   - custom scripts
 ♠️
 
-### 🛠️ Installation
-```bash
-go install [github.com/hackerx7853/fast-ParamRecon@latest](https://github.com/hackerx7853/fast-ParamRecon@latest)
-
+> ### 🛠️ Installation
+> 
+> ```bash
+> go install github.com/hackerx7853/fast-ParamRecon@latest
+> ```
+> ### 📋 Download Parameters
+> 
+> The tool uses an external parameter list (`params.json`).
+> 
+> ```bash
+> curl -O https://raw.githubusercontent.com/hackerx7853/fast-ParamRecon/main/params.json
+> ```
+> ###  Usage
+> 
+> ```bash
+> fast-ParamRecon -urls your_urls.txt -params params.json
+> ```
