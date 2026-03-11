@@ -32,4 +32,4 @@ Can scan 10 million URLs in under 2 minutes "Based on the OWASP Top 25 Parameter
 
 # fast-ParamRecon ⚡
 
-![fast-ParamRecon PoC](poc.png)
+![fast-ParamRecon PoC](poc-script.png)
